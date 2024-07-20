@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ox5swa2cnprv"]
+
+[ext_resource type="PackedScene" uid="uid://bps25fchsyx6q" path="res://scenes/atom_manager.tscn" id="2_exnw1"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Atom Manager" parent="." instance=ExtResource("2_exnw1")]
